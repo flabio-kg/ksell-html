@@ -1,5 +1,5 @@
 @font-face {
-	font-family: 'black';
+	font-family: 'helvetica';
 	src: url('../fonts/black/black.eot'),
 	url('../fonts/black/black.woff') format('woff'), 
 	url('../fonts/black/black.ttf') format('truetype'), 
@@ -9,7 +9,7 @@
 }
 
 @font-face {
-	font-family: 'blackitalic';
+	font-family: 'helvetica';
 	src: url('../fonts/blackitalic/blackitalic.eot'),
 	url('../fonts/blackitalic/blackitalic.woff') format('woff'), 
 	url('../fonts/blackitalic/blackitalic.ttf') format('truetype'), 
@@ -19,7 +19,7 @@
 }
 
 @font-face {
-	font-family: 'bold';
+	font-family: 'helvetica';
 	src: url('../fonts/bold/bold.eot'),
 	url('../fonts/bold/bold.woff') format('woff'), 
 	url('../fonts/bold/bold.ttf') format('truetype'), 
@@ -29,7 +29,7 @@
 }
 
 @font-face {
-	font-family: 'bolditalic';
+	font-family: 'helvetica';
 	src: url('../fonts/bolditalic/bolditalic.eot'),
 	url('../fonts/bolditalic/bolditalic.woff') format('woff'), 
 	url('../fonts/bolditalic/bolditalic.ttf') format('truetype'), 
@@ -39,7 +39,7 @@
 }
 
 @font-face {
-	font-family: 'italic';
+	font-family: 'helvetica';
 	src: url('../fonts/italic/italic.eot'),
 	url('../fonts/italic/italic.woff') format('woff'), 
 	url('../fonts/italic/italic.ttf') format('truetype'), 
@@ -49,7 +49,7 @@
 }
 
 @font-face {
-	font-family: 'light';
+	font-family: 'helvetica';
 	src: url('../fonts/light/light.eot'),
 	url('../fonts/light/light.woff') format('woff'), 
 	url('../fonts/light/light.ttf') format('truetype'), 
@@ -59,7 +59,7 @@
 }
 
 @font-face {
-	font-family: 'lightitalic';
+	font-family: 'helvetica';
 	src: url('../fonts/lightitalic/lightitalic.eot'),
 	url('../fonts/lightitalic/lightitalic.woff') format('woff'), 
 	url('../fonts/lightitalic/lightitalic.ttf') format('truetype'), 
@@ -69,7 +69,7 @@
 }
 
 @font-face {
-	font-family: 'medium';
+	font-family: 'helvetica';
 	src: url('../fonts/medium/medium.eot'),
 	url('../fonts/medium/medium.woff') format('woff'), 
 	url('../fonts/medium/medium.ttf') format('truetype'), 
@@ -79,7 +79,7 @@
 }
 
 @font-face {
-	font-family: 'regular';
+	font-family: 'helvetica';
 	src: url('../fonts/regular/regular.eot'),
 	url('../fonts/regular/regular.woff') format('woff'), 
 	url('../fonts/regular/regular.ttf') format('truetype'), 
@@ -89,7 +89,7 @@
 }
 
 @font-face {
-	font-family: 'thin';
+	font-family: 'helvetica';
 	src: url('../fonts/thin/thin.eot'),
 	url('../fonts/thin/thin.woff') format('woff'), 
 	url('../fonts/thin/thin.ttf') format('truetype'), 
@@ -99,7 +99,7 @@
 }
 
 @font-face {
-	font-family: 'thinitalic';
+	font-family: 'helvetica';
 	src: url('../fonts/thinitalic/thinitalic.eot'),
 	url('../fonts/thinitalic/thinitalic.woff') format('woff'), 
 	url('../fonts/thinitalic/thinitalic.ttf') format('truetype'), 
@@ -109,7 +109,7 @@
 }
 
 @font-face {
-	font-family: 'ultralight';
+	font-family: 'helvetica';
 	src: url('../fonts/ultralight/ultralight.eot'),
 	url('../fonts/ultralight/ultralight.woff') format('woff'), 
 	url('../fonts/ultralight/ultralight.ttf') format('truetype'), 
@@ -119,11 +119,15 @@
 }
 
 @font-face {
-	font-family: 'ultralightitalic';
+	font-family: 'helvetica';
 	src: url('../fonts/ultralightitalic/ultralightitalic.eot'),
 	url('../fonts/ultralightitalic/ultralightitalic.woff') format('woff'), 
 	url('../fonts/ultralightitalic/ultralightitalic.ttf') format('truetype'), 
 	url('../fonts/ultralightitalic/ultralightitalic.eot?#iefix') format('embedded-opentype');
 	font-weight: 200;
 	font-style: italic;
+}
+
+body{
+	font-family: 'helvetica';
 }

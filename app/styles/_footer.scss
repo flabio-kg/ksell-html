@@ -1,0 +1,51 @@
+.footer{
+	height: 95px;
+	line-height: 94px;
+	background: linear-gradient(to right, #2c2e8c 0%,#9f248f 35%,#ee255c 65%,#f37021 85%,#faa61a 100%);
+	@media (max-width: $screen-sm-max) {
+		height: auto;
+		// line-height: normal;
+		// padding: 20px;
+	}
+	@media (max-width: $screen-xs-max) {
+		line-height: 60px;
+		padding-top: 15px;
+	}
+	&__logo{
+		@media (max-width: $screen-xs-max) {
+			text-align: center;
+		}
+	}
+	&__text{
+		text-align: center;
+		p{
+			font-size: 18px;
+			color: #fff;
+			font-weight: 400;
+			margin: 0;
+		}
+	}
+	&__href{
+		text-align: right;
+		@media (max-width: $screen-xs-max) {
+			text-align: center;
+		}
+		a{
+			color: #fff;
+			font-weight: 400;
+			font-size: 18px;
+			text-decoration: none;
+			transition: all .3s;
+			&:hover{
+				color: #2c2e8c;
+				i{
+					color: #faa61a;
+				}
+			}
+			i{
+				color: #fff;
+				padding-right: 10px;
+			}
+		}
+	}
+}
